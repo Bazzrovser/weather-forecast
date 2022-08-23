@@ -1,0 +1,152 @@
+@font-face {
+  font-family: 'Old Standard TT', serif;
+  src: url('./fonts/Old_Standard_TT/OldStandardTT-Regular.ttf');
+  font-weight: normal;
+  font-style: normal;
+  display: swap;
+}
+
+* {
+  font-family: 'Old Standard TT', serif;
+}
+
+#p_prldr {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url('spin.jpg');
+  z-index: 30;
+  background-position: center top;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.contpre {
+  width: 250px;
+  height: 100px;
+  position: absolute;
+  left: 50%;
+  top: 48%;
+  margin-left: -125px;
+  margin-top: -75px;
+  color: #fff;
+  font-size: 40px;
+  letter-spacing: -2px;
+  text-align: center;
+  line-height: 35px;
+}
+
+#p_prldr .svg_anm {
+  position: absolute;
+  width: 41px;
+  height: 41px;
+  background: url(tail-spin.svg) center center no-repeat;
+  background-size: 41px;
+  margin: -16px 0 0 -16px;
+}
+
+
+h2 {
+  color: #044f48;
+}
+
+#timeOuT {
+  line-height: 1.5;
+  color: #165f78;
+  font-weight: bold;
+}
+
+#date {
+  color: #FFF;
+  font-size: 50px;
+  font-weight: 900;
+  margin: 30px 0px;
+}
+
+#time {
+  color: #FFF;
+  font-size: 60px;
+  font-weight: 900;
+  margin: 30px 0px;
+  text-shadow: 2px 10px rgba(0, 0, 0, 0.6);
+}
+
+#city-text {
+  color: #FFF;
+  font-size: 80px;
+  font-weight: 900;
+  margin: 30px 0px;
+}
+
+#background {
+  background-image: url('images/hulk.jpg');
+  background-position: center top;
+}
+
+#weather,
+#temp #temp-text {
+  color: #FFF !important;
+  font-size: 70px;
+  font-weight: 900;
+  text-shadow: 2px 10px rgba(0, 0, 0, 0.6);
+}
+
+.center-block {
+  color: #FFF !important;
+  font-size: 80px;
+}
+
+#weather-text {
+  font-size: 60px;
+  margin-top: -1rem;
+}
+
+.border {
+  border-radius: 12px;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+#local,
+.row {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: stretch;
+  justify-content: space-around;
+}
+
+#weatherImg {
+  width: 7rem;
+}
+
+#tempMode {
+  cursor: pointer;
+}
+
+.jumbotron {
+  margin-top: 50px;
+}
+
+.jumbotron,
+.row,
+#pole {
+  text-align: center;
+}
+
+.jumbotron,
+.row,
+.left {
+  width: 35%;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+@media (max-width: 1280px) {
+  .jumbotron,.row,.left {
+    width: 100%; 
+  }
+}
